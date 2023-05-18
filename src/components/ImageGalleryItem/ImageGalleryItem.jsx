@@ -28,6 +28,7 @@ const ImageGalleryItem = ({ tags, webformatURL, largeImageURL }) => {
   );
 };
 
+
 ImageGalleryItem.propTypes = {
   tags: PropTypes.string.isRequired,
   webformatURL: PropTypes.string.isRequired,
